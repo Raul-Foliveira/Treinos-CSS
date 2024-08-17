@@ -1,0 +1,153 @@
+:root {
+   --main-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: linear-gradient( to top, #0e4fc9 -30%, #5026e6, #b541c0, #c033bb) ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.containerMain{
+   width: 25%;
+   height: 650px;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   background-color: #fff;
+   margin: 0 auto;
+   margin-top: 1%;  
+}
+
+.login{
+   display: flex;
+   flex-direction: column;
+}
+
+.cardLogin {
+   position: relative;
+   width: 100%; 
+   margin: 0 auto; 
+}
+
+.inputContainer {
+   position: relative;
+}
+
+
+.iconUsuario {
+   position: absolute;
+   top: 56%;
+   right: 85%; 
+   transform: translateY(-50%); 
+   width: 18px; 
+   height: 18px; 
+   pointer-events: none; 
+}
+
+.btn {
+   width: 80%;
+   padding: 12px;
+   color: #fff;
+   margin: 0 auto;
+   margin-top: 50px;
+   background-color: #d41c72;
+   border: none;
+   border-radius: 5px;    
+   font-size: 16px;
+   cursor: pointer; 
+   transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn:hover{
+   background-color: #a41b6b;
+}
+
+.login h2{
+   text-align: center;
+   margin-top: 20%;
+}
+
+.cardLogin input{
+   background-color: rgb(243, 224, 226);
+   margin-top: 2%;
+   margin-left: 10%;
+   width: 74%;
+   padding: 2% 0% 3% 6%;  
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   border-color: #fff;
+   font-weight: 600; 
+}
+
+input[type="checkbox"] {
+   accent-color: #601863; 
+}
+
+.senha{
+   margin-top: 20px;
+}
+
+.lembrar{
+   margin: 2% 0% 0% 10%;  
+}
+
+.socialBaixo{
+   font-family: var(--main-font-family);
+   margin-top: 5%;
+   margin-bottom: 4%;
+}
+
+.socialBaixo p{
+   text-align: center;
+   margin-top: 10%;
+}
+
+.socialBaixo a:hover {
+   background-color: #e9ecf0;
+}
+
+.face {  
+   font-family: var(--main-font-family);
+   margin-left: 10%;
+   color: #000;  
+   text-decoration: none;
+   text-align: center;
+}
+
+.face img{
+   width: 5%;
+   margin-right: 2%;
+   margin-bottom: -1%;
+}
+
+.google{
+   font-family: var(--main-font-family);;
+   margin-left: 25%;  
+   color: #000;
+   text-decoration: none;
+}
+
+.google img{
+   width: 5%;
+   margin-right: 10px;
+   margin-bottom: -1%;
+}
+
+.link {
+   font-family: var(--main-font-family);
+   text-align: center;
+   margin-top: 8%;
+}
+
+.link a {
+   font-family: var(--main-font-family);
+   color: #0e0a27;
+   text-decoration: none;
+}
+
+
+

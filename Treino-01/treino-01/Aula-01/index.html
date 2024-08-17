@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <body>
+        <div class="containerMain">
+            <form class="login">
+                
+                <h2>ENTRAR</h2>
+
+                <div class="cardLogin">
+                    <div class="inputContainer">
+                        <input type="text" id="usuario" name="usuario" placeholder="Usuário" required><img class="iconUsuario" src="icons/pesquisar.svg" alt="pesquisar">
+                    </div>
+                </div>
+
+                <div class="cardLogin">
+                    <div class="inputContainer">
+                        <input type="password" id="senha" name="senha" placeholder="Senha" required><img class="iconUsuario" src="icons/cadeado.svg" alt="cadeado">
+                    </div>
+                </div>
+
+                <div class="lembrar">
+                    <input type="checkbox" id="lembrar" name="lembrar">
+                    <label for="lembrar">Lembrar-me</label>
+                </div>
+
+                <button class="btn" type="submit">ENTRAR</button>
+                
+                <div class="socialBaixo">
+                    <p>Ou entre com</p>
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dlogin%2Bgoogle%26rlz%3D1C1GCEA_enBR1123BR1123%26oq%3Dlogin%2Bgoog%26gs_lcrp%3DEgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAqgCALACAA%26pf%3Dcs%26sourceid%3Dchrome%26ie%3DUTF-8&ec=futura_gmv_dt_so_72586115_e&hl=pt-BR&ifkv=Ab5oB3qeFtVh56LRgoQ1oQOdl0PDigffk3FuOkTriacXLVxFJkSM-WxPxmHxToHgmKCB8eT5qgcf_w&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1996447342%3A1723850352400887&ddm=0" class="google"><img src="icons/google.svg" class="social-icon">Google</a>
+                    <a href="https://www.facebook.com/?locale=pt_BR" class="face"><img src="icons/facebook.svg" class="social-icon">Facebook</a>
+                </div>
+
+                <div class="link">
+                    <p>
+                       Não tem um cadastro? 
+                       <a href="#">Cadastre-se já</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
